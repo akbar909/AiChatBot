@@ -16,7 +16,7 @@ function Gemini() {
 
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCmc7dqywkwJ0zI0w02LRizlzg9qqN2Q10`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=?`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
